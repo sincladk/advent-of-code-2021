@@ -9,9 +9,6 @@ foreach ($currentDepth in $depthReadings) {
             Write-Host "$($depthIncreaseCount): Previous depth is less than current depth ($previousDepth < $currentDepth)" -ForegroundColor Gray
         }
     }
-    else {
-        
-    }
 
     $previousDepth = $currentDepth;
 }
